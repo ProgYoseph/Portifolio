@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=SUSE:wght@100..800&display=swap'); /*Fontes*/
+
+:root
+{
+    --corSite:rgb(54, 36, 136);
+} /*Criando variáveis*/
+
+*
+{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "SUSE", sans-serif;
+} /*Resetando configurações do navegador*/
+
+.navbar
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: var(--corSite);
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.Titulo
+{
+    font-size: 2rem;
+}
+
+.links-menu
+{
+    display: flex;
+    gap: 20px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: white;
+    transition: 1s all;
+    border-radius: 22px;
+}
+
+.link:hover
+{
+    background-color: white;
+    color: black;
+    padding: 7px;
+}
